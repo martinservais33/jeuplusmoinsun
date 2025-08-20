@@ -1,0 +1,16 @@
+{
+  "name": "papiers-v2-nopin",
+  "version": "2.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cookie-parser": "^1.4.6",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.1",
+    "cors": "^2.8.5"
+  }
+}
